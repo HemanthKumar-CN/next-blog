@@ -13,7 +13,7 @@ const getFromLocalStorage = () => {
 
 export const ThemeContextProvider = ({ children }) => {
   const [theme, setTheme] = useState(() => {
-    return getFromLocalStorage();
+    return "light";
   });
 
   const toggle = () => {
