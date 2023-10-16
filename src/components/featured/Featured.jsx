@@ -22,7 +22,7 @@ const Featured = () => {
         <div className={styles.textContainer}>
           <h1 className={styles.postTitle}>CraftVerse : A Hobby Blogs</h1>
           <p className={styles.postDesc}>
-            CraftVerse is a vibrant online community that celebrates the art of
+            {`CraftVerse is a vibrant online community that celebrates the art of
             creation and self-expression through various hobbies. Here,
             enthusiasts from diverse backgrounds and interests come together to
             share their passion for crafts, hobbies, and artistic pursuits.
@@ -31,7 +31,7 @@ const Featured = () => {
             woodworking, or any other craft. It's a place where your creativity
             knows no bounds, and you can discover inspiration, how-to guides,
             and connect with fellow hobbyists who share your love for crafting.
-            Join us in the CraftVerse and let your imagination run wild.
+            Join us in the CraftVerse and let your imagination run wild.`}
           </p>
           {/* <button className={styles.button}>Read More</button> */}
         </div>
